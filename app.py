@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint
-
+app = Flask(__name__)
 maze_game_bp = Blueprint('maze_game', __name__)
 
 # Define routes and register maze_game_bp with Flask app
